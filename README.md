@@ -10,7 +10,7 @@ Also, it allows you to calculate any currency relative to another.
 <img src="ValuteConverter/Screenshots/Date.png" width="250px" higth="450px">
 ___
 
-## First version
+## First version(Now)
 
 The first version of the app was not written for the graduation project in the best way. 
 The app is written with a storyboard and not the best design. During development, I didn't use Git.
@@ -18,10 +18,6 @@ The app is written with a storyboard and not the best design. During development
 ___
 ## Second version
 
-In the second version I want:
-- [ ] get rid of the storyboard
-- [ ] change design
-- [ ] write interface with code
+- [x] get rid of the storyboard
+- [x] write interface with code
 - [ ] New features?
-
-# Okeeey, let's go!

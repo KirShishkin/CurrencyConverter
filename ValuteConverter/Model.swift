@@ -39,7 +39,6 @@ class Currency {
     }
 }
 
-
 class Model: NSObject, XMLParserDelegate {
     
     static let shared = Model()
@@ -119,7 +118,6 @@ class Model: NSObject, XMLParserDelegate {
         task.resume()
     }
     
-    
     func parseXML() {
         Model.shared.currentcies = [Currency.rouble()]
         
@@ -185,7 +183,6 @@ class Model: NSObject, XMLParserDelegate {
         
         if elementName == "Valute" {
             Model.shared.currentcies.append(currentCurrentcy!)
-
         }
     }
 }
